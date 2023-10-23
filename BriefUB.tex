@@ -1,0 +1,94 @@
+\NeedsTeXFormat{LaTeX2e}
+\documentclass[foldmarks,rightdate,twoside,a4paper]{ubletter}
+
+%\usepackage{ngerman}
+\usepackage{graphicx}  
+
+%\usepackage{pifont}
+%\usepackage{times}
+
+%Zeichencodierung für die Ausgabe
+\usepackage[LY1]{fontenc}
+
+\renewcommand{\sfdefault}{ScalaSansPro-OsF} 	% ScalaSans
+\renewcommand{\rmdefault}{ffsj}					% Scala Serif
+\renewcommand{\familydefault}{\rmdefault}
+%\renewcommand{\familydefault}{\rmdefault}
+
+%\usepackage[TS1,T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+%\usepackage[latin1]{inputenc}
+
+\usepackage{textcomp}
+
+
+% If not given ubbrief.cfg will be used
+
+\usename{ubbrief}
+
+
+%Deutsch als Dokumentensprache
+\usepackage[ngerman]{babel}
+%\selectlanguage{ngerman}
+
+% Anführungsszeichen zentral verwalten
+% \enquote{Text in Anführungszeichen}
+\usepackage[babel,german=guillemets]{csquotes}
+
+
+\begin{document}
+
+\fontsize{11}{13pt}\selectfont
+
+\begin{letter}{
+Best University\\
+Fance Street 3\\
+DE-80000 Munich\\
+Germany
+}
+
+\institute{Fakult\"at für Wirtschaftsinformatik und Angewandte Informatik}
+
+\name{Prof. Dr. Prename Surname}
+\function{\\Professorship for ...,\newline group}
+
+\telephone{+49\,(0)\,951\,/\,863\,}
+\telefax{+49\,(0)\,951\,/\,863\,}
+\email{prename.surname@uni-bamberg.de}
+
+%\optiona{optional Zeile 1}
+%\optionb{optional Zeile 2}
+
+\gebaeude{WE5}
+\etage{05}
+\raum{40}
+
+\signature{}
+%\signature{\resizebox*{39mm}{!}{\includegraphics{faksimile}}}
+
+\selectlanguage{english}
+\refdatename{Bamberg,}
+%\def\today{1.10.2009}
+
+\subject{Lorem Ipsum}
+
+\encl{None}
+
+\opening{Dear Sir or Madam,}
+
+
+\vspace{0.8cm}
+
+Yours sincerely,
+
+%\vspace{0.5cm}
+
+%\hspace{0.0cm}\includegraphics[width=5 cm]{unterschrift.png}
+
+%\vspace{1.5cm}
+\hspace{0.0cm} Prename Surname
+\closing{} 
+
+\end{letter}
+
+\end{document}
