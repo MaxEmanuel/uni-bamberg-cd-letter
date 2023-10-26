@@ -613,6 +613,7 @@
 \def\specialmail#1{\def\@specialmail{#1}}
 \def\email#1      {\def\@email{#1}}
 \def\mailbox#1    {\def\@mailbox{#1}}
+\def\homepage#1   {\def\@homepage{#1}}
 \def\@specialmail {}
 \def\@email       {}
 \def\@mailbox     {}
