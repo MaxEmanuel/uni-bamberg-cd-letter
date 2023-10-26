@@ -2,7 +2,6 @@
 \documentclass[foldmarks,rightdate,twoside,a4paper]{ubletter}
 
 \usepackage{graphicx}
-
 %\usepackage{pifont}
 %\usepackage{times}
 
@@ -21,9 +20,7 @@
 
 
 % If not given ubbrief.cfg will be used
-
 \usename{ubbrief}
-
 
 %Deutsch als Dokumentensprache
 \usepackage[ngerman]{babel}
@@ -33,7 +30,6 @@
 % Anführungsszeichen zentral verwalten
 % \enquote{Text in Anführungszeichen}
 \usepackage[babel,german=guillemets]{csquotes}
-
 
 \begin{document}
 
@@ -60,10 +56,9 @@ Germany
 
 \gebaeude{WE5}
 \etage{05}
-\raum{40}
+\raum{040}
 
-\signature{}
-%\signature{\resizebox*{39mm}{!}{\includegraphics{faksimile}}}
+\signature{Prename Surname}
 
 \refdatename{Bamberg,}
 %\def\today{1.10.2009}
@@ -74,19 +69,10 @@ Germany
 
 \opening{Dear Sir or Madam,}
 
-
-\vspace{0.8cm}
-
-Yours sincerely,
-
-%\vspace{0.5cm}
-
-%\hspace{0.0cm}\includegraphics[width=5 cm]{unterschrift.png}
-
-%\vspace{1.5cm}
-\hspace{0.0cm} Prename Surname
-\closing{} 
-
+\closing{
+Yours sincerely\\
+%\includegraphics[height=2 cm]{unterschrift.png}\vspace{-2cm}
+}
 \end{letter}
 
 \end{document}
