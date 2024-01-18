@@ -196,7 +196,10 @@
   \def\datename         {Date}
   \def\pagename         {Page}
   \def\telephonename    {Telephone}
-  \def\telefaxname      {Telefax}}
+  \def\telefaxname      {Telefax}
+  \def\besucheradresse  {Visiting Address}
+  \def\briefadresse     {Mail Address}
+  \def\paketadresse     {Parcel Address}}
  \let\captionsUSenglish=\captionsenglish
  \def\captionsgerman{%
   \def\yourrefname      {Ihr Zeichen:}
@@ -212,7 +215,10 @@
   \def\datename         {Datum}
   \def\pagename         {Seite}
   \def\telephonename    {Telefon}
-  \def\telefaxname      {FAX}}
+  \def\telefaxname      {FAX}
+  \def\besucheradresse  {Besucheradresse}
+  \def\briefadresse     {Postadresse}
+  \def\paketadresse     {Paketadresse}}
  \def\captionsngerman{%
   \def\yourrefname      {Ihr Zeichen:}
   \def\yourmailname     {Ihr Schreiben vom:}
@@ -227,7 +233,10 @@
   \def\datename         {Datum}
   \def\pagename         {Seite}
   \def\telephonename    {Telefon}
-  \def\telefaxname      {Telefax}}
+  \def\telefaxname      {Telefax}
+  \def\besucheradresse  {Besucheradresse}
+  \def\briefadresse     {Postadresse}
+  \def\paketadresse     {Paketadresse}}
  \let\captionsaustrian=\captionsgerman
  \def\captionsfrench{%
   \def\yourrefname      {Vos r\'ef\'erences:}
