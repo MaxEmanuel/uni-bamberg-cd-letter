@@ -597,9 +597,9 @@
 
 \def\subject#1{\def\@subject{%
 \ifx\subjectname\@empty
-  \bfseries\scshape #1
+  \bfseries #1
 \else
-  \@hangfrom{\subjectname\ }\bfseries\scshape #1
+  \@hangfrom{\subjectname\ }\bfseries #1
 \fi
 }}
 
