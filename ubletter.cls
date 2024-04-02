@@ -214,10 +214,10 @@
   \def\headtoname       {An}
   \def\datename         {Datum}
   \def\pagename         {Seite}
-  \def\telephonename    {Telefon}
-  \def\telefaxname      {FAX}
-  \def\besucheradresse  {Besucheradresse}
-  \def\briefadresse     {Postadresse}
+  \def\telephonename    {Tel.}
+  \def\telefaxname      {Fax}
+  \def\besucheradresse  {Besuchsadresse}
+  \def\briefadresse     {Briefadresse}
   \def\paketadresse     {Paketadresse}}
  \def\captionsngerman{%
   \def\yourrefname      {Ihr Zeichen:}
@@ -234,8 +234,8 @@
   \def\pagename         {Seite}
   \def\telephonename    {Telefon}
   \def\telefaxname      {Telefax}
-  \def\besucheradresse  {Besucheradresse}
-  \def\briefadresse     {Postadresse}
+  \def\besucheradresse  {Besuchsadresse}
+  \def\briefadresse     {Briefadresse}
   \def\paketadresse     {Paketadresse}}
  \let\captionsaustrian=\captionsgerman
  \def\captionsfrench{%
