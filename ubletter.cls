@@ -395,11 +395,11 @@
 %
 %%
     \def\@oddfoot{\vbox{\hsize167mm\pnumfont 
-\ifnum\mylastpage>0\hspace*{135mm}Seite~\thepage~von \the\mylastpage
+\ifnum\mylastpage>0\hspace*{135mm}\pagename~\thepage~/ \the\mylastpage
 \else\ifnum\c@page>1\hfill --~\thepage~--\hfill\hbox to 0pt{\hss}\else\relax\fi
 \fi}}%
     \def\@evenfoot{\vbox{\hsize167mm\pnumfont 
-\ifnum\mylastpage>0\hspace*{135mm}Seite~\thepage~von \the\mylastpage
+\ifnum\mylastpage>0\hspace*{135mm}\pagename~\thepage~/ \the\mylastpage
 \else\hfill --~\thepage~--\hfill\hbox to 0pt{\hss}
 \fi}}%
     \c@page\@ne
@@ -552,7 +552,7 @@
 \ifx\enclname\@empty
   #1
 \else
-  \@hangfrom{\enclname\ }#1
+  \@hangfrom{}#1
 \fi
 }}
 
